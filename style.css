@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(132,129,129,1) 35%, rgba(132,129,129,1) 65%, rgba(0,0,0,1) 100%);
+
+}
+.container { 
+    max-width: 1340px;
+    margin: 0 auto;
+ 
+
+}
+.about_me {
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 0px 0px 50px 50px;
+    padding: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.about_me_title {
+    color: whitesmoke;
+}
+.text {
+    color: whitesmoke;
+}
+.logo {
+    width: 100%; 
+    height: 100px;
+background-color: aliceblue;
+}
+
+.header_image {
+    /* margin-bottom: 20px; */
+    position: relative;
+    color: white;
+    
+}
+.top_image {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+.social_in_top {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+.name_header {
+    position: absolute;
+
+    top: 6vw;
+
+    right: 4vw;
+    font-family: "Exo", Arial, Helvetica, sans-serif;
+    font-style: bold;
+    line-height: 110%;
+    font-size: 7vw; 
+
+}
+.line {
+    position:absolute;
+    height: 5px;
+    width: 38.2vw;
+    top: 21vw;
+    background-color: black;
+    color: black;
+    right: 4vw;
+}
+.header_image_text {
+    position: absolute;
+    font-size: 1.11vw;
+    font-family: "Exo", Arial, Helvetica, sans-serif;
+    top: 22vw;
+    right: 10.8vw;
+}
+
+.ion-social-email {
+    filter: invert(99%) sepia(2%) saturate(2212%) hue-rotate(31deg) brightness(108%) contrast(112%);
+   
+}
+
+/* .header_image img {
+    width: 100%;
+    height: auto;
+} */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+}
+.gallery img  {
+    margin: 10px;
+
+}
+.gallery video  {
+
+    margin: 10px;
+}

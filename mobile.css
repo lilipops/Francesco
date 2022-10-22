@@ -1,0 +1,82 @@
+@media only screen and (max-width:500px) {
+    body{
+        background: grey;
+    }
+    /* .header_image {
+      
+       top: 120px;
+    } */
+    .top {
+        height: 160px;
+        background: black;
+    }
+    .top_image {
+        content: url(images/mobilebanner.jpeg);
+        width: 100%;
+    }
+
+    .name_header { 
+        top: 3%;
+        right: 0;
+        left: 5vw;
+        font-size: 11vw;
+        
+    }
+    .line {
+        display: none;
+    }
+    .header_image_text {
+        top: 19.5%;
+        left: 5vw;
+        font-style: bold;
+        font-size: 4vw;
+    }
+    .header_image_text p {
+        display: none;
+    }
+    .header_image_text:after {
+        content: 'Professional calistenics trainer';
+        position: relative;
+    }
+
+    .gallery * {
+        top: 20px;
+        position: sticky;
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: center;
+    }
+   
+    .gallery img, p  {
+
+   
+        max-width: 307.2px;
+        max-height: 409.6px;
+    
+    }
+    .gallery a {
+        pointer-events: none;
+    }
+ 
+    .gallery video  {
+        /* display: inline-block;
+        max-width: 90%;
+        /* width: 307.2px; */
+        /* height: auto; */
+        /* height: 409.6px; */
+        max-width: 307.2px;
+        max-height: 409.6px;
+    }
+
+    .social_in_top {
+        display: none;
+    }
+    .special_video {
+        width: 340px;
+        height: 430px;
+        margin: 30px;
+    }
+    #special {
+        display: none;
+    }
+}

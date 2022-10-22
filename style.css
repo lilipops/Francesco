@@ -94,10 +94,13 @@ background-color: aliceblue;
     justify-content: center;
 }
 .gallery img  {
+    width: 384px;
+    height: 512px;
     margin: 10px;
 
 }
 .gallery video  {
-
+    width: 384px;
+    height: 512px;
     margin: 10px;
 }
